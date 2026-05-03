@@ -1,0 +1,141 @@
+sudo apt update
+clear
+sudo apt install ubuntu-desktop
+sudo reboot now
+ping -c 4 8.8.8.8
+ping -c 4 google.com
+sudo apt update
+startx
+sudo apt update
+sudo apt install ubuntu-desktop
+sudo reboot
+cd
+ls
+--version
+cd..
+clear
+ls
+whoami
+sudo su
+exit
+sudo apt update
+sudo apt upgrade
+reboot
+sudo apt neofetch
+sudo apt install neofetch
+neofetch
+man ls
+history
+power off
+ssh-keygen
+/home/sebas/.ssh/id_ed25519.pub
+sudo su
+exit
+ssh-keygen
+cd /home/sebas/.ssh
+cat /home/sebas/.ssh/id_ed25519
+cat /home/sebas/.ssh/id_ed25519.pub
+cd ..
+ls
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:sebasshidalgo/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep -i HOME_URL /etc/os-release
+grep -i home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)"> datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git config --global user.email "sebastianm.hidalgo@gmail.com"
+git config --global user.name "sebasshidalgo"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuarios.txt
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+cd /datos_usuario.txt
+ls
+cat /datos_usuario.txt
+cat datos_usuario.txt
+cat datos_usuarios.txt
+ls
+ls -l datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+cat /proc/cpuinfo
+lscpu
+lscpu | grep -E "Architecture|CPU\(s\)" >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+ls
+cd ..
+ls
+git status
+cd /repogit
+cd repogit
+pwd
+cd /repogit
+cd repogit
+cat TP_AySO
+ls -l
+cd ..
+ls
+locate repogit
+sudo apt install plocate
+locate repogit
+cd /home/sebas/repogit
+cd/TP_AySO
+ls
+cat TP_Ayso
+cat TP_AySO
+cd TP_AySO
+cat datos_usuario.txt
+lscpu | grep -E "Architecture|CPU\(s\)" >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU -- utilizo lscpu Architecture porque en MAC no existe model name"
+git push
+cat <<EOF >> README.md
+Alumno: Sebastián Hidalgo
+División: 315
+Turno: Noche
+EOF
+
+cat README.md
+git status
+git add .
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
+cp ~/.bash_history ./Historial_comandos_Sebas.txt
+ls
+cat datos_usuarios.txt
+ls -l datos_usuarios.txt
+ls -l datos_usuario.txt
+cat datos_usuario.txt
+rm datos_usuarios.txt
+ls
+cat datos_usuuario.txt
+cat datos_usuario.txt
+history -a
